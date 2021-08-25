@@ -1,0 +1,7 @@
+type StoreConfig @doc(description: "The type contains information about a store config") {
+    celebros_ac_status : String @doc(description: "Celebros AC Status")
+    celebros_ac_customer_name : String @doc(description: "Celebros AC Customer Name")
+    celebros_ac_frontend_address : String @doc(description: "Celebros AC Frontend Address")
+    celebros_ac_scriptserver_address : String @doc(description: "Celebros AC Script Server Address")
+    celebros_ac_version : String @doc(description: "Celebros AC Version")
+}

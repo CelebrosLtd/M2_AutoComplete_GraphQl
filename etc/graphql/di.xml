@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<!--
+ * Celebros
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish correct extension functionality.
+ * If you wish to customize it, please contact Celebros.
+ *
+ ******************************************************************************
+ * @category    Celebros
+ * @package     Celebros_AutoCompleteGraphQl
+-->
+ 
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\StoreGraphQl\Model\Resolver\Store\StoreConfigDataProvider">
+        <arguments>
+            <argument name="extendedConfigData" xsi:type="array">
+                <item name="celebros_ac_status" xsi:type="string">celebros_autocomplete/general/enabled</item>
+                <item name="celebros_ac_customer_name" xsi:type="string">celebros_autocomplete/general/customer_name</item>
+                <item name="celebros_ac_frontend_address" xsi:type="string">celebros_autocomplete/general/frontend_address</item>
+                <item name="celebros_ac_scriptserver_address" xsi:type="string">celebros_autocomplete/general/scriptserver_address</item>
+                <item name="celebros_ac_version" xsi:type="string">celebros_autocomplete/general/acversion</item>
+            </argument>
+        </arguments>
+    </type>
+</config>

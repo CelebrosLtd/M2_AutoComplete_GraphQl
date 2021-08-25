@@ -1,0 +1,21 @@
+{
+    "name": "celebros/module-autocomplete-graph-ql",
+    "description": "GraphQl for Caelebros AutoComplete",
+    "type": "magento2-module",
+    "version": "0.9.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "celebros/module-autocomplete": ">=1.3.0"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Celebros\\AutoCompleteGraphQl\\": ""
+        }
+    }
+}
